@@ -42,7 +42,7 @@ const data: Category[] = [
 const Categories = () => {
   return (
     <div className="p-4 mt-10 lg:mt-20 ">
-      <div className="flex justify-center">
+      <div className="flex justify-center ml-3">
         <h1 className="capitalize font-bold text-xl lg:text-3xl text-purple-700">
           we are experts in resolving the following issues
         </h1>

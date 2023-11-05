@@ -78,23 +78,23 @@ const Navbar = () => {
       </div>
 
       {isOpen && (
-        <div className={`md:hidden absolute top-14 right-7 bg-transparent`}>
-          <div className="flex flex-col space-y-6">
+        <div className={`md:hidden absolute top-14 right-1 bg-white`}>
+          <div className="flex flex-col space-y-3">
             <Link
               href="/"
-              className="block text-black p-2 cursor-pointer capitalize decoration-orange-400 decoration-2 underline-offset-8 transition-transform duration-200 ease-out hover:scale-110 hover:font-bold hover:underline active:underline dark:text-gray-100"
+              className="block text-black p-2 cursor-pointer capitalize decoration-orange-400 decoration-2 underline-offset-8 transition-transform duration-200 ease-out hover:scale-110 font-semibold hover:font-extrabold hover:underline active:underline dark:text-gray-100"
             >
               Home
             </Link>
             <Link
               href="#aboutSection"
-              className="block text-black p-2 cursor-pointer capitalize decoration-orange-400 decoration-2 underline-offset-8 transition-transform duration-200 ease-out hover:scale-110 hover:font-bold hover:underline active:underline dark:text-gray-100"
+              className="block text-black p-2 cursor-pointer capitalize decoration-orange-400 decoration-2 underline-offset-8 transition-transform duration-200 ease-out hover:scale-110 font-semibold hover:font-extrabold hover:underline active:underline dark:text-gray-100"
             >
               About
             </Link>
             <Link
               href="#contactSection"
-              className="block text-black p-2 cursor-pointer capitalize decoration-orange-400 decoration-2 underline-offset-8 transition-transform duration-200 ease-out hover:scale-110 hover:font-bold hover:underline active:underline dark:text-gray-100"
+              className="block text-black p-2 cursor-pointer capitalize decoration-orange-400 decoration-2 underline-offset-8 transition-transform duration-200 ease-out hover:scale-110 font-semibold hover:font-extrabold hover:underline active:underline dark:text-gray-100"
             >
               Contact Us
             </Link>

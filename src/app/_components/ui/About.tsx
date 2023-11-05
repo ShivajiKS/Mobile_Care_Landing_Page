@@ -9,26 +9,26 @@ const AboutSection: React.FC = () => {
         </h3>
       </div>
       <div className="text-justify hyphens-auto text-base lg:text-lg mt-7 flex flex-col space-y-2">
-        <p className="indent-5 lg:indent-10">
+        <p>
           We're Srinu Mobile Care, your one-stop shop for all your mobile repair
           needs. We offer a wide range of services, from simple screen repairs
           to complex motherboard replacements. Our team of experienced
           technicians is certified by the major mobile manufacturers, so you can
           be confident that your device is in good hands.
         </p>
-        <p className="indent-5 lg:indent-10">
+        <p>
           With over 8 years of experience, Srinu Mobile Care has been serving
           the Kukatpally, Hyderabad community with reliable mobile and tablet
           repair services. Our deep-rooted experience means you can count on us
           to understand and fix your device issues.
         </p>
-        <p className="indent-5 lg:indent-10">
+        <p>
           We specialize in fixing a variety of mobile and tablet brands,
           including popular names like Samsung, Apple, Mi, Redmi, Oppo, Vivo,
           Realme, and many more. No matter which brand or model you own, we have
           the know-how to restore your device to its optimal performance.
         </p>
-        <p className="indent-5 lg:indent-10">
+        <p>
           If you're looking for a reliable and affordable mobile care provider,
           look no further than Srinu Mobile Care. Contact us today to schedule a
           repair or to learn more about our services.
